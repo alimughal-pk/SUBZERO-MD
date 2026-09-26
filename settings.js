@@ -11,13 +11,12 @@ const settings = {
 DATABASE_URL: process.env.DATABASE_URL || '',
     
 /* ================= BOT IDENTITY ================= */
-
-botName: process.env.BOT_NAME || 'SUBZERO-MD',
-botOwner: process.env.BOT_OWNER || 'Darrell M',
-ownerNumber: process.env.OWNER_NUMBER || '263719647303',
-author: process.env.AUTHOR || 'Mr Frank OFC',
-packname: process.env.PACKNAME || 'SUBZERO-MD',
-description: process.env.DESCRIPTION || 'Multi-device WhatsApp bot',
+botName: process.env.BOT_NAME || 'Ali Mughal bot',
+botOwner: process.env.BOT_OWNER || 'Ali Mughal',
+ownerNumber: process.env.OWNER_NUMBER || '923046813269',
+author: process.env.AUTHOR || 'Ali Mughal',
+packname: process.env.PACKNAME || 'Ali Mughal bot',
+description: process.env.DESCRIPTION || 'Multi-device WhatsApp Bot',
 
 /* ================= SESSION ================= */
 
