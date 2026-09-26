@@ -5,8 +5,8 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 USER node
-RUN git clone https://github.com/mrfrankofcc/SUBZERO-MD.git /home/node/SUBZERO-MD
 WORKDIR /home/node/SUBZERO-MD
+COPY --chown=node:node . .
 RUN chmod -R 777 /home/node/SUBZERO-MD/
 RUN yarn install --network-concurrency 1 --ignore-engines
 EXPOSE 7860
